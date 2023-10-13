@@ -9,6 +9,7 @@ packages = [{include = "mesa_datagen", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 mesa = "^2.1.2"
+faker = "^19.10.0"
 
 
 [build-system]

@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "mesa_datagen", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 mesa = "^2.1.2"
 sqlalchemy = "^2.0.22"
 psycopg = {extras = ["binary"], version = "^3.1.12"}
